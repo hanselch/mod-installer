@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mod Installer Help Page</title>
+        <style>
+            body {
+                max-width: 800px;
+                margin: 20px auto;
+            }
+            .toc {
+                background-color: rgb(216, 216, 216);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Mod Installer Help Page</h1>
+        <h2>This will help you understand what each component does, and will help you navigate the 'confusing' layout.</h2>
+        <div class="toc">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="#parti">Part I: Inital Setup</a></li>
+                <li><a href="#partii">Part II: Program Impression</a></li>
+                <li><a href="#partiii">Part III: Implementing the Firt Mods</a></li>
+                <li><a href="#partiv">Part IV: Updating the Existing Mods</a></li>
+            </ul>
+        </div>
+        <hr>
+        <h2 id="parti">Part I: Initial Setup</h2>
+        <p>Before going in installing the mods, you must first do the pre-requisits when running the program</p>
+        <p>You must first install Python version 3.2 or over.</p>
+        <ol>
+            <li>Go to the Python's <a href="https://python.org/downloads/" target="_blank">dowload page</a> to essentially run the program.</li>
+            <li>Click on the button that says "Download Python 3.12.0" or the latest version and do the typical program installation process.</li>
+            <ol>
+                <li>When opening the installer, it will ask you which installer. Click on <u>Install Now</u> now for just getting the language. <br><img src="images/Screenshot 2023-10-12 160637.png" alt="Highlighted in red the install now button." width="500px"></li>
+                <li>After python is succesfully installed, click on <u>close</u> at the bottom to finish the installation.<br><img src="images/Screenshot 2023-10-12 161026.png" alt="Highlighting the close button, signifying the end of the installation for python" width="500px"></li>
+            </ol>
+            <li>After everything is setup and the language is installed on the system, click on the <code>main.py</code> file on the folder and it should show this:<br><img src="images/Screenshot 2023-10-12 162134.png" alt="Shows the program that was made for installing mod." width="500px"></li>
+        </ol>
+        <hr>
+        <h2 id="partii">Part II: Program Impression</h2>
+        <p>Before anything, let's look at the program and what each button and input box does.</p>
+        <ol>
+            <li>When you first open up the main program, you will see two seperate windows:<br><img src="images/Screenshot 2023-10-12 162134.png" alt="" width="500px"><br>The actual program itself, used to help implement the mods.<br><img src="images/Screenshot 2023-10-12 162838.png" width="500px" alt=""><br>The console, it is used for hansel to better know any ideas of any errors or nerd stuff, so is best not to mess with them and let em know about the scary error.</li>
+            <li>On the actual program itself, there are confusing buttons and stuff.</li>
+            <ul>
+                <li>First, it is the file selections.<br><img src="images/selection-part.png" width="500px"><br>The top entry is <b>where the mods are going to be place</b> and the bottom entry is for <b>the zip file location for either updating or adding the mods to the desired mod folder</b>.</li>
+                <li>Then, is the extarction button.<br><img src="images/extraction-part.png" width="500px"><br>Used when you never added the mods from the zip file.</li>
+                <li>After that is the update button:<br><img src="images/update-part.png" width="500px"><br>When there are new mods or update mods that, for example, a mod is out of alpha. Then we will update all them.</li>
+                <li>And lastly the <b>Confused? Click here</b> will bring you right back to this page if you forgot something!</li>
+            </ul>
+        </ol>
+        <hr>
+        <h2 id="partiii">Part III: Implementing the First Mods</h2>
+        <p>It is assumed that the mods folder in your system is completely empty. (Is best to do so, since it will bring mods to a completely different version then what you normally use)</p>
+        <ol>
+            <li>Double check if the folder to place the mods in is correct (what is in default is where the mods are always placed if you have the official launcher).</li>
+                <ul>
+                    <li>If you are not using the default launcher, then click <b>Browse Folder to Add Mods</b>, prompting you to select the folder you want to place the mods</li>
+                </ul>
+            <li>Then, select the <b>Browse Zip File</b> and find the downloaded zip file used for the server. Through the file explorer:<br><img src="images/Screenshot 2023-10-12 192410.png" width="500px"></li>
+            <li>Click <b>Open</b> at the bottom of the window.<br><img src="images/select open 2023-10-12 192410.png" width="500px"><br>Which will automatically set the path to that zip.</li>
+            <li>And then, click <b>Start Extraction</b></li>
+                <ul>
+                    <li>It will pop-up something like this after you click the <b>Start Execution</b> button.<br><img src="images/Screenshot 2023-10-12 192820.png" width="500px"><br>Which when you click <b>OK</b> it will close the program and you will be able to play now with the installed mods!</li>
+                </ul>
+        </ol>
+        <hr>
+        <h2 id="partiv">Part IV: Updating the Existing Mods</h2>
+        <p>Now for this one, it is assumed that we have played the game and we found some mods or the mod is now fully released.</p>
+        <ol>
+            <li>Follow step 1 through 3 on Part III. This is bascially the same of selecting the correct folder for the mods and selecting the correct zip folder with the updated mods. But after this is different.</li>
+            <li>After the selection was made, click <b>Update Mods</b> and it will pop-up this prompt: <img src="images/Screenshot 2023-10-12 193550.png" width="500px"></li>
+            <ul>
+                <li>As the info states, the files in the mods folder will be deleted. But, you have the option to save them in a seperate folder if you have not made one.</li>
+                <li>If you press <b>Yes</b>, the program will create a folder in the same place as the program, in the Mod Installer folder, the folder with the saved mods will be called <b>Saved Mods</b></li>
+                <li>If you press <b>No</b>, the program will not create a saved folder and will continue with the process of deleting the mods completely to replace the new mods.</li>
+                <li>When pressed <b>Cancel</b>, it will return you back to the main program.</li>
+            </ul>
+            <li>After your selection, it will either create the folder for the mods you save and the mods will be fully replaced. OR there is no folder at all but mods are fully replaced!</li>
+        </ol>
+
+    </body>
+</html>
