@@ -16,6 +16,9 @@ for l in libraries:
         subprocess.check_call([sys.executable, "-m", "pip", "install", l])
     else:
         print(f"\033[32m {l} is found in system.")
+for l in libraries:
+    print(f"\033[32m Updating '{l}'...\033[39m")
+    subprocess.check_call([sys.executable, '-m', 'pip',  'install', '--upgrade', l])
 
 import gdown
 
